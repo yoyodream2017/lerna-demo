@@ -1,6 +1,6 @@
 {
   "name": "go-game",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "private": true,
   "main": "src/components/Square.js",
   "dependencies": {
