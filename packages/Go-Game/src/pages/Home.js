@@ -10,6 +10,7 @@ class Home extends Component {
             <li><a href='/toe'>Tic tac toe</a></li>
             <li><a href='/gobang'>Gobang game</a></li>
             <li><a href='/go'>Go game</a></li>
+            {/* hello world */}
           </ul>
         </div>    
       </div>
