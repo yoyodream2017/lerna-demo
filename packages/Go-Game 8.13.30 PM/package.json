@@ -1,0 +1,51 @@
+{
+  "name": "go-game",
+  "version": "0.1.2",
+  "private": true,
+  "main": "src/components/Square.js",
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17"
+  },
+  "scripts": {
+    "start": "eslint src test src && react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --coverage",
+    "eject": "react-scripts eject",
+    "prepush": "npm test",
+    "stylelint": "./node_modules/.bin/stylelint './src/*.css'",
+    "stylefmt": "./node_modules/.bin/stylefmt -r './src/*.css'",
+    "release": "npm version",
+    "postrelease": "git push origin master && git push --tags"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-jest": "^21.2.0",
+    "babel-plugin-jest-hoist": "^21.2.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "eslint": "^4.13.1",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "^21.2.1",
+    "postcss": "^6.0.14",
+    "postcss-less": "^1.1.3",
+    "react-test-renderer": "^16.2.0",
+    "regenerator-runtime": "^0.11.1",
+    "stylefmt": "^6.0.0",
+    "stylelint": "^8.4.0",
+    "stylelint-config-standard": "^18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoyodream2017/Go-Game.git"
+  }
+}
