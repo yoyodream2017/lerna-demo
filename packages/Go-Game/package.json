@@ -2,7 +2,9 @@
   "name": "go-game",
   "version": "1.0.1",
   "private": true,
-  "main": "src/components/Square.js",
+  "files": [
+    
+  ],
   "dependencies": {
     "immutable": "^3.8.2",
     "prop-types": "^15.6.0",
@@ -21,9 +23,11 @@
     "stylelint": "./node_modules/.bin/stylelint './src/*.css'",
     "stylefmt": "./node_modules/.bin/stylefmt -r './src/*.css'",
     "release": "npm version",
-    "postrelease": "git push origin master && git push --tags"
+    "postrelease": "git push origin master && git push --tags",
+    "build:cjs": "BABEL_ENV=cjs NODE_ENV=production babel src -d lib --source-map --ignore \"*.test.js\" --copy-files"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.3",
     "babel-jest": "^21.2.0",
