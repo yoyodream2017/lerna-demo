@@ -1,10 +1,8 @@
 {
   "name": "go-game",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "private": true,
-  "files": [
-    
-  ],
+  "files": [],
   "dependencies": {
     "immutable": "^3.8.2",
     "prop-types": "^15.6.0",
